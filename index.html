@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>La praula del dia</title>
+    <title>La paraula del dia</title>
+    <script src="paraulogic.js"></script>
 </head>
 <body>
-<div class="title">Nom del joc</div>
-<div class="respostes">
-    <div class="resposta">
-        <div class="slot green">P</div>
-        <div class="slot">A</div>
-        <div class="slot yellow">R</div>
-        <div class="slot">A</div>
-        <div class="slot">U</div>
-        <div class="slot">L</div>
-        <div class="slot">A</div>
-    </div>
+<div class="title">
+La paraula del dia
 </div>
 
-<div class="panel-title">Pista</div>
+<div class="title">
+    <input type="text" id="resposta"/>
+    <button type="submit" onclick="analitzarParaula()">Enviar</button>
+</div>
+
+<div class="respostes" id="respostes">
+
+
+</div>
+
+<div class="panel-title" id="pista" >Pista: Paraula de 5 lletres</div>
 </body>
 </html>

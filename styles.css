@@ -4,6 +4,15 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+input, button{
+    display: inline;
+    background-color: #fffefe;
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
 .title {
     text-align: center;
     padding: 10px;
@@ -46,6 +55,9 @@ body {
 
 .slot.green {
     background-color: #4caf50;
+}
+.slot.yellow {
+    background-color: #f7ff8c;
 }
 
 .panel-title {
