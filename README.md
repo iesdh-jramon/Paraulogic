@@ -2,7 +2,7 @@ Fes un joc de paraules tipus paraulogic que mostri les lletres que va encertants
 Tens un codi html i css d'exemple que te pot ajudar a començar.
 
 Exemple de codi de cada línia:
-```css
+```html
 <div class="resposta">
     <div class="slot green">S</div>
     <div class="slot">E</div>
