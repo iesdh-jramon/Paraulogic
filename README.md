@@ -11,3 +11,12 @@ Exemple de codi de cada línia:
     <div class="slot">N</div>
 </div>
 ```
+```js
+respostaHTML=''
+respostaHTML += '<div class="resposta">';
+for (let i = 0; i < 5; i++) {
+respostaHTML += '<div class="slot green">S</div>'
+}
+respostaHTML += '</div>';
+document.getElementById('respostes').innerHTML += respostaHTML;
+```
