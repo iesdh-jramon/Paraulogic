@@ -20,3 +20,16 @@ respostaHTML += '<div class="slot green">S</div>'
 respostaHTML += '</div>';
 document.getElementById('respostes').innerHTML += respostaHTML;
 ```
+
+Paraula aleatòria
+```js
+const paraulesCandidates = ['RADIO', 'PANTALLA', 'ORDINADOR', 'TECLAT', 'RATOLI']
+let secreta = ''
+
+calcularSecreta();
+
+function calcularSecreta() {
+    numAleatori = Math.floor(Math.random() * paraulesCandidates.length);
+    secreta = paraulesCandidates[numAleatori]
+}
+```
