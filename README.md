@@ -33,3 +33,9 @@ function calcularSecreta() {
     secreta = paraulesCandidates[numAleatori]
 }
 ```
+
+Eliminar una paraula de l'array
+```js
+    let posicioElement = paraulesCandidates.indexOf(secreta)  //Cerca la posició de la paraula 'secreta' a l'array paraulesCandidates
+    paraulesCandidates.splice(posicioElement, 1); //Elimina el que hi ha a la posició trobada 'posicióElement0
+```
